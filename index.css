@@ -1,0 +1,23 @@
+* {
+   margin: 0;
+   padding: 0;
+   outline: none;
+   box-sizing: border-box;
+   background-color: rgb(201, 207, 242);
+}
+.center {
+   padding-left: calc(50% - 600px);
+   padding-right: calc(50% - 600px);
+}
+.item {
+   max-width: 47%;
+}
+img {
+   max-width: 100%;
+   height: 100%;
+}
+.section {
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+}
